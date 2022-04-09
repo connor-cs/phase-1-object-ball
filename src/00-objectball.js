@@ -217,6 +217,12 @@ function playerStats(name) {
 }
 
 //return the player with the biggest shoe size
+
+//finally got this function working!!
+//this returns jeff adrien as biggest shoe size
+//edit: may have altered something, when copying from chrome console...
+
+//now put this function in another function to return his rebounds
 function findBiggestShoe() {
     let sizeShoe = 0
     let player = "Not Assigned yet"
@@ -232,11 +238,9 @@ function findBiggestShoe() {
     }
     return player
 }
-//finally got this function working!!
-//this returns jeff adrien as biggest shoe size
-//edit: may have altered something, when copying from chrome console...
 
-//now put this function in another function to return his rebounds
+
+
 //use players() function above
 
 function bigShoeRebounds() {
